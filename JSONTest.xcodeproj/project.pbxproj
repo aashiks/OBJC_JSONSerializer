@@ -14,7 +14,6 @@
 		6021BFFA1457CAC10046B54B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021BFF91457CAC10046B54B /* main.m */; };
 		6021BFFE1457CAC10046B54B /* QBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021BFFD1457CAC10046B54B /* QBAppDelegate.m */; };
 		6021C0011457CAC10046B54B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6021BFFF1457CAC10046B54B /* MainStoryboard_iPhone.storyboard */; };
-		6021C0041457CAC10046B54B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6021C0021457CAC10046B54B /* MainStoryboard_iPad.storyboard */; };
 		6021C0071457CAC10046B54B /* QBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021C0061457CAC10046B54B /* QBViewController.m */; };
 		6021C01B1457CAE70046B54B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021C0101457CAE70046B54B /* NSObject+SBJSON.m */; };
 		6021C01C1457CAE70046B54B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021C0121457CAE70046B54B /* NSString+SBJSON.m */; };
@@ -46,7 +45,6 @@
 		6021BFFC1457CAC10046B54B /* QBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBAppDelegate.h; sourceTree = "<group>"; };
 		6021BFFD1457CAC10046B54B /* QBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBAppDelegate.m; sourceTree = "<group>"; };
 		6021C0001457CAC10046B54B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		6021C0031457CAC10046B54B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		6021C0051457CAC10046B54B /* QBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBViewController.h; sourceTree = "<group>"; };
 		6021C0061457CAC10046B54B /* QBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBViewController.m; sourceTree = "<group>"; };
 		6021C00E1457CAE70046B54B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 				6021BFFC1457CAC10046B54B /* QBAppDelegate.h */,
 				6021BFFD1457CAC10046B54B /* QBAppDelegate.m */,
 				6021BFFF1457CAC10046B54B /* MainStoryboard_iPhone.storyboard */,
-				6021C0021457CAC10046B54B /* MainStoryboard_iPad.storyboard */,
 				6021C0051457CAC10046B54B /* QBViewController.h */,
 				6021C0061457CAC10046B54B /* QBViewController.m */,
 				6021BFF41457CAC10046B54B /* Supporting Files */,
@@ -257,7 +254,6 @@
 			files = (
 				6021BFF81457CAC10046B54B /* InfoPlist.strings in Resources */,
 				6021C0011457CAC10046B54B /* MainStoryboard_iPhone.storyboard in Resources */,
-				6021C0041457CAC10046B54B /* MainStoryboard_iPad.storyboard in Resources */,
 				60E9D8E6149A0E4E00E777C4 /* sample_json.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,14 +303,6 @@
 				6021C0001457CAC10046B54B /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6021C0021457CAC10046B54B /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6021C0031457CAC10046B54B /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
