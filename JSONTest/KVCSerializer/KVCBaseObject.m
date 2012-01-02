@@ -188,6 +188,11 @@ const char * property_getTypeString( objc_property_t property )
 }
 
 + (id)objectForDictionary:(NSDictionary *) inputDict {
+    
+    if ([inputDict isKindOfClass:[NSNull class]]) {
+        return nil;
+    }
+
     const char* className = class_getName([self class]);
     NSDictionary * propertyDict = [self getPropertiesAndTypesForClassName:className];
     NSArray * propertyKeys = [propertyDict allKeys];
