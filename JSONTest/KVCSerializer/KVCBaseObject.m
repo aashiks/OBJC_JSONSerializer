@@ -121,6 +121,7 @@ const char * property_getTypeString( objc_property_t property )
      * PS : If you are using models of NSManagedObject, you might want to replace the 
      * below line to 
      * if ([class superclass] != [NSManagedObject class]) {
+     * and subclass KVCBaseObject from NSObject to NSManagedObject
      */
     
     if ([class superclass] != [NSObject class]) {
