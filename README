@@ -144,7 +144,7 @@ KVCTestObject * obj = (KVCTestObject *)[KVCTestObject objectForJSON:jString];
 3. Note 
 -------
 If your models are made up of NSManagedObjects ( Core Data Objects ), you might want to checkout the comments at
- + (NSMutableDictionary *) getPropertiesAndTypesForClassName:(const char *)className 
+ + (NSMutableDictionary *) getPropertiesAndTypesForClassName:(const char *)className in the file KVCBaseObject.m 
 for some tweaks!
 
 4. Thats it! If you have any queries, reach me at kaushiks87@gmail.com
