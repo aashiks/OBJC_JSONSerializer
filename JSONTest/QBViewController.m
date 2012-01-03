@@ -50,9 +50,9 @@
     //NSDictionary * dict  = [obj objectToDictionary];
     //NSLog(@"%@",dict);
     
-//    KVCTestObject * anotherObj = [[KVCTestObject alloc] init];
-//    anotherObj.kName = @"Sasi";
-//    NSLog(@"%@",[anotherObj objectToDictionary]);
+    KVCTestObject * anotherObj = [[KVCTestObject alloc] init];
+    anotherObj.kName = @"Sasi";
+    NSLog(@"%@",[anotherObj objectToDictionary]);
     
 //    
 //    NSError * error;

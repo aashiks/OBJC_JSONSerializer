@@ -114,6 +114,15 @@ const char * property_getTypeString( objc_property_t property )
     
     NSMutableDictionary * dict = [[NSMutableDictionary alloc] init];
     id class = objc_getClass(className);
+    
+    /*
+     * Recursively get properties and types of a class including its parent classes.
+     * Stop when NSObject is reached.
+     * PS : If you are using models of NSManagedObject, you might want to replace the 
+     * below line to 
+     * if ([class superclass] != [NSManagedObject class]) {
+     */
+    
     if ([class superclass] != [NSObject class]) {
         [dict release];
         dict = [[KVCBaseObject getPropertiesAndTypesForClassName:class_getName([class superclass])] retain];
